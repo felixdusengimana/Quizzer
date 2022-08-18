@@ -54,7 +54,6 @@ class _MyAppState extends State<MyApp> {
   ];
 
   void _aswerQuestion(int score) {
-    print(_totalScore);
     _totalScore += score;
     setState(() {
       _activeQuestion = _activeQuestion + 1;
